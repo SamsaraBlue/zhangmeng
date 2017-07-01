@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body,html,p,h1,h2,h3,h4,h5,h6,ul,li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body,html{
+	margin: auto;
+	font-size: 16px!important;
+	font-family: "微软雅黑";
+}
+html{
+	height: 100%;
+	background-color: #f1f1f1;
+}
+ul li{
+	list-style:none;
+}
+a, a:hover{
+	text-decoration:none;
+	display:inline-block;
+	/*-webkit-transform:translate3d(0, 0, 0);*/
+}
+
+/*  MintUI重置样式  */
+.head .mint-header-title{
+  font-size: 1rem;
+}
+.cell-hd .mint-cell-wrapper{
+  width: 90px;
+}
+.mint-indicator-mask{
+	z-index: 999;
+}
+.mint-button--default {
+	box-shadow: none;
+}
+.mint-cell-title {
+	flex: none;
+}
+
+/*公共样式*/
+#app {
+	height: 100%;
+}
+.right_icon {
+	width: .4rem;
+	height: .4rem;
+	display: inline-block;
+	border-top: 2px solid #9d9d9d;
+	border-right: 2px solid #9d9d9d;
+	transform: rotateZ(43deg);
+	margin-bottom: .1rem;
+}
